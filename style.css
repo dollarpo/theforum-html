@@ -14,30 +14,70 @@ body p {
     margin: 7px;
 }
 
-body header {
+body main{
+    border: 0.2px solid rgba(92, 91, 91, 0.295);
+    margin: 0px 0px 10px 0px;
     border-radius: 8px;
-    border: 1px solid rgba(92, 91, 91, 0.295);
+}
+
+body main header {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.forum-header {
+    border-radius: 8px;
+    border: 0.5px solid rgba(92, 91, 91, 0.295);
     background-color: rgba(177, 174, 174, 0.363);
     text-align: center;
     line-height: 15px;
     margin: 0px 0px 10px 0px;
 }
 
-body header h1, a.blog-link {
+.forum-header h1, a.blog-link {
     color: rgba(65, 35, 7, 0.466);
     font-size: 1.8rem;
     margin: 15px;
 }
 
-body header h2, h3 {
+.part-one h2 {
     color: rgb(53, 58, 58);
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 5px;
     margin: 0px;
+    text-align: center;
     background-color: rgba(73, 79, 82, 0.212);
     border: 0.2px solid rgba(92, 91, 91, 0.493);
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+}
+
+.part-two header {
+    color: rgb(53, 58, 58);
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(73, 79, 82, 0.212);
+    border: 0.2px solid rgba(92, 91, 91, 0.493);
+}
+
+.part-two div {
+    text-align: center;
+}
+
+.part-three {
+    color: rgb(53, 58, 58);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border: 0.2px solid rgba(92, 91, 91, 0.493);
+    border-radius: 8px;
+}
+
+.part-three h2 {
+    margin: 5px;
+    font-size: 1.2rem;
 }
 
 .design1 {
@@ -50,4 +90,12 @@ body header h2, h3 {
 a {
     text-decoration: none;
     color: rgb(41, 41, 41);
+}
+
+footer {
+    border-radius: 8px;
+    border: 0.5px solid rgba(92, 91, 91, 0.295);
+    text-align: center;
+    line-height: 15px;
+    margin: 10px 0px 0px 0px;
 }
